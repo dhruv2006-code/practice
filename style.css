@@ -3,12 +3,33 @@ html,body{
     height: 100%;
 }
 body{
-    display: grid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .border1{
-    border: 1px solid black;
     width: 50%;
     height: 100%;
     background-color: white;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   margin-right: 30%;
+}
+.section2{
+    margin-left: 60%;
+    margin-top: -30%;
+}
+.text{
+    font-family:'Tahoma', Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    padding: 20px;
+    font-size: 70px;
+}
+.text span{
+    color: rgb(0, 149, 255);
+}
+#user-details input{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid  rgb(0, 149, 255);
+    border-radius: 10px;
 }
